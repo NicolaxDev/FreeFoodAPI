@@ -1,8 +1,8 @@
-# React + Vite
+# FreeFoodAPI Docs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una API de uso publico totalmente gratuita y documentada en español, puedes usarla para tus proyectos personales, practicar o incluso si quieres usarla ara algun proyecto de ambito mas comercial (aplican TyC).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El API  se conecta a una base de datos con mas de 110 recetas, ofrece:
+- Acceso completo a todas las recetas
+- Acceso a los ingredientes de cada receta y su preparacion
+- Y muchos mas EndPoints GRATIS, visita: para mas informacion del API
