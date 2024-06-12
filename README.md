@@ -1,8 +1,4 @@
-# React + Vite
+# FreeFoodAPI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+esta es un API gratuita enfocada a su uso para practicar o crear tus propios proyectos
+Para mas informacion visita: https://freefoodapi.netlify.app
