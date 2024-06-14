@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --letra-color: #1e1e1e;
+    --borde: #ebeaea;
+    --morado: #9A6AFF;
+    --morado-letra: #7854c5;
+}
+.button-purple-a{
+    padding: 0.6em;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: var(--morado);
+    cursor: pointer;
+    transition: ease-in 0.1s all;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-decoration: none;
+}

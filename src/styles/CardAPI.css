@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --letra-color: #1e1e1e;
+    --borde: #ebeaea;
+    --morado: #9A6AFF;
+    --morado-letra: #7854c5;
+    --verde: #06d6a0;
+    --amarillo: #ffd166;
+}
+strong{
+    color: var(--amarillo);
+}
+.card-offer-api{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-family: 'Montserrat';
+    width: 25%;
+}
+.card-offer-api img{
+    width: 5em;
+}
+.card-offer-api p{
+    color: var(--borde);
+    text-align: center;
+}

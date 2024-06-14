@@ -1,4 +1,4 @@
-import icon from '../../public/API-icon.png';
+import icon from '../../public/FreeAPIFood_logo.webp';
 import { NavLink } from 'react-router-dom';
 import '../styles/NavBar.css';
 

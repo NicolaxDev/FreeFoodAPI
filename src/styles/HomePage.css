@@ -4,6 +4,8 @@
     --borde: #ebeaea;
     --morado: #9A6AFF;
     --morado-letra: #7854c5;
+    --morado-oscuro: #291d41;
+    --verde: #06d6a0;
 }
 .contenedor-principal{
     background-image: url(../assets/FondoAPI.webp);
@@ -38,18 +40,6 @@
     align-items: center;
     justify-content: center;
 }
-.contenedor-principal-filtro-botones a{
-    padding: 0.6em;
-    border: none;
-    border-radius: 6px;
-    color: #FFFFFF;
-    background-color: var(--morado);
-    cursor: pointer;
-    transition: ease-in 0.1s all;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    text-decoration: none;
-}
 .contenedor-principal-filtro-botones a:hover{
     transform: scale(1.1);
 }
@@ -78,4 +68,22 @@
 }
 .contenedor-ejemplo-request{
     width: 35%;
+}
+.strong-article-ejemplo{
+    color: var(--verde);
+}
+.section-api-offer{
+    background-color: var(--morado-oscuro);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4em 0em;
+}
+.ultimate-section{
+    padding: 4em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-family: 'Montserrat';
 }
