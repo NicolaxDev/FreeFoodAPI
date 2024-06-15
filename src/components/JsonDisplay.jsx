@@ -23,9 +23,9 @@ export function JsonDisplay({ data, tittle }){
         });
       };
     return(
-        <>
+        <div className='contenedor-jsons'>
             <h3 className='tittle'>{tittle}</h3>
             <pre className="json-viewer" dangerouslySetInnerHTML={{ __html: syntaxHighlight(data) }}></pre>
-        </>
+        </div>
     )
 }

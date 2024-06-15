@@ -17,7 +17,7 @@ export function HomePage(){
         "name": "Pancakes",
         "prep_time": 10,
         "servings": 4
-      };
+    };
     return(
         <>
             <main className='contenedor-principal'>

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --letra-color: #1e1e1e;
+    --borde: #ebeaea;
+    --morado: #9A6AFF;
+    --morado-letra: #7854c5;
+    --morado-oscuro: #291d41;
+    --verde: #06d6a0;
+}
+.docs-article{
+    width: 70%;
+    height: 89vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 4em;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.docs-article h2{
+    font-size: 2em;
+}
+.strong-documentacion{
+    color: var(--morado);
+}

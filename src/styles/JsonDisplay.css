@@ -8,22 +8,25 @@
   --verde: #06d6a0;
   --amarillo: #ffd166;
 }
+.contenedor-jsons{
+  width: 30em;
+}
 .tittle{
-    background-color: var(--morado);
-    color: #FFFFFF;
-    padding: 1em;
-    border-radius: 8px 8px 0px 0px;
+  background-color: var(--morado);
+  color: #FFFFFF;
+  padding: 1em;
+  border-radius: 8px 8px 0px 0px;
 }
 .json-viewer {
-    background-color: var(--morado-oscuro);
-    color: var(--borde);
-    padding: 10px;
-    border-radius:  0px 0px 8px 8px;
-    font-family: "Kanit";
-    text-align: left;
-    white-space: pre-wrap;
-    word-break: break-all;
-    overflow: auto;
+  background-color: var(--morado-oscuro);
+  color: var(--borde);
+  padding: 10px;
+  border-radius:  0px 0px 8px 8px;
+  font-family: "Kanit";
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow: auto;
 }
 
 .json-viewer .key {
