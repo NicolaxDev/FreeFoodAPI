@@ -16,11 +16,23 @@
     font-family: 'Montserrat';
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 1.5em;
 }
 .docs-article h2{
     font-size: 2em;
 }
+.docs-article p{
+    font-size: 1.1em;
+}
 .strong-documentacion{
     color: var(--morado);
+}
+.contenedor-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 2em;
+}
+.contenedor-lista li{
+    margin-bottom: 10px;
 }

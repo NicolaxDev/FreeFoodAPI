@@ -13,8 +13,8 @@ export function AsideNavDoc(){
             </nav>
             <span>Metodos GET</span>
             <nav>
-                <li className='li-nav-margin'><a href="">Obtener todas las recetas</a></li>
-                <li className='li-nav-margin'><a href="">Obtener cantidad determinada de recetas</a></li>
+                <li className='li-nav-margin'><a href="#introduccion">Obtener todas las recetas</a></li>
+                <li className='li-nav-margin'><a href="#formatoRequest">Obtener cantidad determinada de recetas</a></li>
                 <li className='li-nav-margin'><a href="">Obtener recetas random</a></li>
                 <li className='li-nav-margin'><a href="">Buscar recetas por nombre</a></li>
                 <li className='li-nav-margin'><a href="">Buscar recetas por ID</a></li>

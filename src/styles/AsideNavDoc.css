@@ -48,7 +48,15 @@
     border-left: 2px solid var(--borde);
 }
 .aside-contenedor nav li{
-    list-style: none;
+    list-style: none; 
+}
+.aside-contenedor nav li a{
+    text-decoration: none;
+    color: var(--letra-color);
+    font-weight: 500;
+}
+.aside-contenedor nav li a:hover{
+    color: var(--morado);
 }
 .li-nav-margin{
     margin-bottom: 1em;
