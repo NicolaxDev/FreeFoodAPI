@@ -8,4 +8,4 @@ const request = {
     "servings": 4
 };
 
-export default {jsonData}
+export default {request}

@@ -25,8 +25,8 @@ export function HomePage(){
                     <h1>FreeAPIFood</h1>
                     <p>Este es un servicio de API totalmente gratuito y de uso publico para la comunidad!.</p>
                     <div className='contenedor-principal-filtro-botones'>
-                        <ButtonPurple link='' texto='Ver documentacion' />
-                        <ButtonPurple link='https://www.paypal.me/JSandoval865' texto='Apóyame'/>
+                        <ButtonPurple link='/documentacion' texto='Ver documentacion' target={''}/>
+                        <ButtonPurple link='https://www.paypal.me/JSandoval865' texto='Apóyame' target={'_blank'}/>
                     </div>
                 </div>
             </main>

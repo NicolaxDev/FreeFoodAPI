@@ -9,7 +9,7 @@ export function NavBar() {
             <nav className='header-navbar-contenedor-links'>
                 <Link to='/' className={({ isActive }) => isActive ? 'header-navbar-contenido-link active' : 'header-navbar-contenido-link'}>Inicio</Link>
                 <Link to='/documentacion' className={({ isActive }) => isActive ? 'header-navbar-contenido-link active' : 'header-navbar-contenido-link'}>Documentación</Link>
-                <Link to='/soporte' className={({ isActive }) => isActive ? 'header-navbar-contenido-link active' : 'header-navbar-contenido-link'}>Soporte</Link>
+                {/* <Link to='/soporte' className={({ isActive }) => isActive ? 'header-navbar-contenido-link active' : 'header-navbar-contenido-link'}>Soporte</Link> */}
             </nav>
         </header>
     );
