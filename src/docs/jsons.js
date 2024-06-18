@@ -1,4 +1,4 @@
-const jsonData = {
+const request = {
     "category_id": 1,
     "cook_time": 20,
     "description": "Deliciosos pancakes con jarabe de arce.",
