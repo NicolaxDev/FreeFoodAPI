@@ -19,7 +19,7 @@ export function HomePage(){
         "servings": 4
     };
     return(
-        <>
+        <article className='full-contenedor-homepage'>
             <main className='contenedor-principal'>
                 <div className='contenedor-principal-filtro'>
                     <h1>FreeAPIFood</h1>
@@ -47,8 +47,8 @@ export function HomePage(){
             </article>
             <section className='ultimate-section'>
                 <h3>Inicia ahora a usar FreeFoodAPI</h3>
-                <ButtonPurple link='' texto='ver documentacion'/>
+                <ButtonPurple link='/documentacion' texto='ver documentacion' target={''}/>
             </section>
-        </>
+        </article>
     )
 }

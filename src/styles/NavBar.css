@@ -28,7 +28,8 @@
 .header-navbar-contenedor-links a{
     color: var(--letra-color);
     text-decoration: none;
-    padding: 1.5em 1em;
+    padding: 1.4em 1em;
+    height: 100%;
     transition: ease-in 0.1s all;
     border-bottom: solid 2px transparent;
     border-top: solid 2px transparent;

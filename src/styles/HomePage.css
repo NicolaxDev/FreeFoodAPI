@@ -7,6 +7,23 @@
     --morado-oscuro: #291d41;
     --verde: #06d6a0;
 }
+.full-contenedor-homepage{
+    overflow-y: scroll;
+    box-sizing: border-box;
+    height: 89.9vh;
+    scrollbar-width: auto;
+    scrollbar-color: var(--morado) #996aff10;
+}
+.full-contenedor-homepage::-webkit-scrollbar {
+    width: 16px;
+}
+.full-contenedor-homepage::-webkit-scrollbar-track {
+  background: #996aff10;
+}
+.full-contenedor-homepage::-webkit-scrollbar-thumb {
+  background-color: var(--morado);
+  border-radius: 10px;
+}
 .contenedor-principal{
     background-image: url(../assets/FondoAPI.webp);
     background-repeat: no-repeat;
