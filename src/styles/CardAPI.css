@@ -8,7 +8,7 @@
     --amarillo: #ffd166;
 }
 strong{
-    color: var(--amarillo);
+    color: var(--morado);
 }
 .card-offer-api{
     display: flex;

@@ -14,7 +14,7 @@
     padding: 0em;
 }
 .header-navbar-img{
-    width: 3.5em;
+    width: 10vh;
 }
 .header-navbar-contenedor-links{
     display: flex;
@@ -27,9 +27,11 @@
 }
 .header-navbar-contenedor-links a{
     color: var(--letra-color);
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    padding: 1.4em 1em;
-    height: 100%;
+    padding: 0em 1em;
+    height: 10vh;
     transition: ease-in 0.1s all;
     border-bottom: solid 2px transparent;
     border-top: solid 2px transparent;

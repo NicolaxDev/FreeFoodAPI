@@ -30,11 +30,6 @@ export function HomePage(){
                     </div>
                 </div>
             </main>
-            <section className='section-api-offer'>
-                <CardAPI imagen={libroRceteas} textoParrafo='El API cuenta con mas de <strong>110 recetas</strong> a las cuales puedes acceder de manera <strong>gratuita</strong>.'/>
-                <CardAPI imagen={key} textoParrafo='<strong>No</strong> se requiere APIkey para usar <strong>FreeAPIFood</strong>'/>
-                <CardAPI imagen={httpIMG} textoParrafo='<strong>Facil</strong> acceso a travez de metodos<strong>HTTP</strong>'/>
-            </section>
             <article className='article-ejemplo-facil'>
                 <div className='contenedor-breve-introduccion'>
                     <h2 className='contenedor-breve-introduccion-titulo'>FreeAPIFood es intuitiva y facil de usar!!</h2>
@@ -45,9 +40,14 @@ export function HomePage(){
                     <JsonDisplay data={jsonData} tittle={'JSON Request'}/>
                 </div>  
             </article>
+            <section className='section-api-offer'>
+                <CardAPI imagen={libroRceteas} textoParrafo='El API cuenta con mas de <strong>110 recetas</strong> a las cuales puedes acceder de manera <strong>gratuita</strong>.'/>
+                <CardAPI imagen={key} textoParrafo='<strong>No</strong> se requiere APIkey para usar <strong>FreeAPIFood</strong>'/>
+                <CardAPI imagen={httpIMG} textoParrafo='<strong>Facil</strong> acceso a travez de metodos<strong>HTTP</strong>'/>
+            </section>
             <section className='ultimate-section'>
-                <h3>Inicia ahora a usar FreeFoodAPI</h3>
-                <ButtonPurple link='/documentacion' texto='ver documentacion' target={''}/>
+                <h3>Owner - GitHub</h3>
+                <a href='https://github.com/NicolaxDev' target='_blank'>NicolaxDev</a>
             </section>
         </article>
     )

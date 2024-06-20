@@ -4,7 +4,7 @@
     --borde: #ebeaea;
     --morado: #9A6AFF;
     --morado-letra: #7854c5;
-    --morado-oscuro: #291d41;
+    --morado-oscuro: #291d4150;
     --verde: #06d6a0;
 }
 .full-contenedor-homepage{
@@ -97,10 +97,19 @@
     padding: 4em 0em;
 }
 .ultimate-section{
-    padding: 4em 0em;
+    padding: 2em 0em;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 0.5em;
     font-family: 'Montserrat';
+    color: var(--borde);
+    background-color: var(--morado-oscuro);
+}
+.ultimate-section h3{
+    font-weight: 500;
+}
+.ultimate-section a{
+    color: var(--borde);
 }
