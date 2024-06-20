@@ -4,22 +4,22 @@
   --letra-color: #1e1e1e;
   --borde: #ebeaea;
   --morado: #9A6AFF;
-  --morado-oscuro: #291d41;
-  --verde: #06d6a0;
-  --amarillo: #ffd166;
+  --morado-claro: #a685ff;
+  --keys: #4c169c;
+  --amarillo-letra: #ffffff;
 }
 .contenedor-jsons{
   width: 30em;
 }
 .tittle{
-  background-color: var(--morado);
+  background-color: #7c30f7;
   color: #FFFFFF;
   padding: 1em;
   border-radius: 8px 8px 0px 0px;
 }
 .json-viewer {
-  background-color: var(--morado-oscuro);
-  color: var(--borde);
+  background-color: var(--morado-claro);
+  color: var(--keys);
   padding: 10px;
   border-radius:  0px 0px 8px 8px;
   font-family: "Kanit";
@@ -30,22 +30,22 @@
 }
 
 .json-viewer .key {
-  color: var(--verde);
+  color: var(--keys);
 }
 
 .json-viewer .string {
-  color: var(--amarillo);
+  color: var(--amarillo-letra);
 }
 
 .json-viewer .number {
-  color: var(--amarillo);
+  color: var(--amarillo-letra);
 }
 
 .json-viewer .boolean {
-  color: var(--amarillo);
+  color: var(--amarillo-letra);
 }
   
 .json-viewer .null {
-  color: var(--amarillo);
+  color: var(--amarillo-letra);
 }
   

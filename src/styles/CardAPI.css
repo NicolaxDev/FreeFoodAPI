@@ -6,6 +6,7 @@
     --morado-letra: #7854c5;
     --verde: #06d6a0;
     --amarillo: #ffd166;
+    --morado-oscuro: #291d4150;
 }
 strong{
     color: var(--morado);
@@ -23,6 +24,8 @@ strong{
     width: 5em;
 }
 .card-offer-api p{
-    color: var(--borde);
+    color: var(--morado-oscuro);
     text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
 }

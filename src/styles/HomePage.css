@@ -25,15 +25,16 @@
   border-radius: 10px;
 }
 .contenedor-principal{
-    background-image: url(../assets/FondoAPI.webp);
+    /* background-image: url(../assets/FondoAPI.webp); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 85vh;
+    padding-top: 5em;
+    padding-bottom: 2em;
 }
 .contenedor-principal-filtro{
-    background-color: #1e1e1e3a;
+    /* background-color: #1e1e1e3a; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -50,6 +51,7 @@
 .contenedor-principal-filtro p{
     font-size: 1.1em;
     font-weight: 600;
+    color: var(--morado-oscuro);
 }
 .contenedor-principal-filtro-botones{
     display: flex;
@@ -65,7 +67,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    padding: 4em 0em;
+    padding: 2em 0em 4em 0em;
     font-family: 'Montserrat';
 }
 .contenedor-breve-introduccion{
@@ -90,26 +92,39 @@
     color: var(--verde);
 }
 .section-api-offer{
-    background-color: var(--morado-oscuro);
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 4em 0em;
 }
 .ultimate-section{
-    padding: 2em 0em;
+    padding: 4em 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.5em;
     font-family: 'Montserrat';
-    color: var(--borde);
-    background-color: var(--morado-oscuro);
+    color: var(--morado-oscuro);
 }
 .ultimate-section h3{
-    font-weight: 500;
+    font-weight: 800;
+    color: var(--morado-letra);
 }
 .ultimate-section a{
-    color: var(--borde);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    text-decoration: none;
+    color: var(--morado-oscuro);
+    font-weight: 500;
+    padding: 0.5em;
+    transition: ease-in 0.1s all;
+}
+.ultimate-section a:hover{
+    transform: scale(1.1);
+}
+.ultimate-section a img{
+    width: 2.4em;
 }

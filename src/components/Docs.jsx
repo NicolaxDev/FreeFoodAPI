@@ -123,7 +123,7 @@ export function Docs(){
             link='/api/recetas/1/instrucciones'
             placeholder='/api/recetas/<int: id_receta>/instrucciones'/>
 
-            <p>Formato request de las intrucciones de preparacion de una receta.</p>
+            <p>Formato request de las intrucciones de preparacion* de una receta.</p>
             <JsonDisplay data={instrucciones} tittle={'JSON Request'}/>
         
         </article>
